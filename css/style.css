@@ -23,14 +23,14 @@ body {
   -moz-text-decoration-color: #c4ceff;
   text-decoration-color: #c4ceff; }
 
-.contenedor {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   background: #2b296e;
   box-shadow: 20px 20px #c4ceff;
   padding: 40px 10px; }
-  .contenedor .contenedor__enlace .enlace {
+  .container .container__link .link {
     background: #5950a1;
     display: inline-block;
     margin: 0 7px;
@@ -42,46 +42,46 @@ body {
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s; }
-  .contenedor .contenedor__enlace .enlace__izquierda {
+  .container .container__link .link__right {
     text-align: center;
     border-radius: 20px 0 0 20px;
     -webkit-border-radius: 20px 0 0 20px;
     -moz-border-radius: 20px 0 0 20px;
     -ms-border-radius: 20px 0 0 20px;
     -o-border-radius: 20px 0 0 20px; }
-    .contenedor .contenedor__enlace .enlace__izquierda:hover {
+    .container .container__link .link__right:hover {
       transform: translateX(-10px);
       -webkit-transform: translateX(-10px);
       -moz-transform: translateX(-10px);
       -ms-transform: translateX(-10px);
       -o-transform: translateX(-10px); }
-  .contenedor .contenedor__enlace .enlace__centro:hover {
+  .container .container__link .link__center:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1); }
-  .contenedor .contenedor__enlace .enlace__derecha {
+  .container .container__link .link__left {
     text-align: center;
     border-radius: 0 20px 20px 0;
     -webkit-border-radius: 0 20px 20px 0px;
     -moz-border-radius: 0 20px 20px 0px;
     -ms-border-radius: 0 20px 20px 0px;
     -o-border-radius: 0 20px 20px 0px; }
-    .contenedor .contenedor__enlace .enlace__derecha:hover {
+    .container .container__link .link__left:hover {
       transform: translateX(10px);
       -webkit-transform: translateX(10px);
       -moz-transform: translateX(10px);
       -ms-transform: translateX(10px);
       -o-transform: translateX(10px); }
-  .contenedor .contenedor__lista {
+  .container .container__list {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space- around;
     margin: 50px 0;
     flex-wrap: wrap;
     gap: 15px; }
-    .contenedor .contenedor__lista .lista {
+    .container .container__list .list {
       width: 200px;
       height: 100px;
       display: flex;
@@ -99,7 +99,7 @@ body {
       -ms-transition: 1s;
       -o-transition: 1s;
       position: relative; }
-      .contenedor .contenedor__lista .lista .lista__img {
+      .container .container__list .list .list__img {
         height: 85%;
         position: absolute;
         opacity: 0.8;
@@ -115,7 +115,7 @@ body {
         -moz-transform: translate(-50%);
         -ms-transform: translate(-50%);
         -o-transform: translate(-50%); }
-      .contenedor .contenedor__lista .lista .img__title {
+      .container .container__list .list .img__title {
         position: absolute;
         right: 10px;
         transition: 1s 1s;
@@ -123,13 +123,13 @@ body {
         -moz-transition: 1s 1s;
         -ms-transition: 1s 1s;
         -o-transition: 1s 1s; }
-      .contenedor .contenedor__lista .lista:hover {
+      .container .container__list .list:hover {
         background: #c4ceff; }
-        .contenedor .contenedor__lista .lista:hover .lista__img {
+        .container .container__list .list:hover .list__img {
           left: 50px; }
-        .contenedor .contenedor__lista .lista:hover .img__title {
+        .container .container__list .list:hover .img__title {
           opacity: 1; }
-  .contenedor .contenedor__btn {
+  .container .container__btn {
     width: 90%;
     background: #ffa500;
     color: white;
@@ -142,7 +142,7 @@ body {
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s; }
-    .contenedor .contenedor__btn:hover {
+    .container .container__btn:hover {
       transform: translate(-15px, -15px);
       -webkit-transform: translate(-15px, -15px);
       -moz-transform: translate(-15px, -15px);
